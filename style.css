@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(./images/london.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#clock-coctainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clock {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 7rem;
+    font-weight: bold;
+    text-align: center;
+    color: #F5EEDC;
+    text-shadow: 4px 4px 5px #27548A, -4px -4px 5px #4F1C51;
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 0%, 100%, 0.1);
+    width: 100%;
+}
+
+@media (max-width: 768px){
+    #clock {
+        font-size: 5.5rem;
+    }
+}
+
+@media (max-width: 390px){
+    #clock {
+        font-size: 3.3rem;
+    }
+}
